@@ -23,3 +23,5 @@ export PATH="$PATH:/Applications/love.app/Contents/MacOS"
 export ASEPRITE_HOME="$HOME/dev/aseprite"
 
 eval "$(zoxide init zsh)"
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
