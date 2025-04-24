@@ -8,7 +8,7 @@ source <(fzf --zsh)
 export KUBECONFIG="/Users/michaelalls/.kube/k3s.yaml"
 
 alias ls='eza'
-alias ll='eza -alf'
+alias ll='eza -al'
 alias la='eza -A'
 alias air='~/go/bin/air'
 alias lg='lazygit'
