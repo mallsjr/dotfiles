@@ -7,9 +7,12 @@ source <(fzf --zsh)
 
 export KUBECONFIG="/Users/michaelalls/.kube/k3s.yaml"
 
-alias ls='eza -l'
+alias ls='eza'
+alias ll='eza -alf'
+alias la='eza -A'
 alias air='~/go/bin/air'
 alias lg='lazygit'
+alias cd='z'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
