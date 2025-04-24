@@ -1,4 +1,5 @@
-font-size = 24
+font-size = 19
 font-family = "Maple Mono Normal NL NF"
 cursor-style = block
 shell-integration-features = no-cursor
+background-opacity = 0.9
