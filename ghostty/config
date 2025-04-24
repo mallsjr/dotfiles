@@ -1,0 +1,4 @@
+font-size = 24
+font-family = "Maple Mono Normal NL NF"
+cursor-style = block
+shell-integration-features = no-cursor
