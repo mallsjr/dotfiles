@@ -30,6 +30,13 @@ return {
       end,
       desc = "Document Symbols",
     },
+    {
+      "<leader>ht",
+      function()
+        require("fzf-lua").helptags()
+      end,
+      desc = "Help Tags",
+    },
   },
   opts = {},
 }
