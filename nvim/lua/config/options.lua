@@ -34,3 +34,5 @@ opt.syntax = "on"
 opt.clipboard:append("unnamedplus")
 
 opt.iskeyword:append("-")
+
+opt.signcolumn = "yes:2"
