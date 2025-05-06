@@ -19,6 +19,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$PATH:/Applications/love.app/Contents/MacOS"
+export PATH="$PATH:/Users/michaelalls/dev/scripts"
 
 export ASEPRITE_HOME="$HOME/dev/aseprite"
 
