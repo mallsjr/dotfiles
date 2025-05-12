@@ -20,6 +20,10 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("v", "<", "<gv", opts)
 vim.keymap.set("v", ">", ">gv", opts)
 
+vim.keymap.set({ "n", "x" }, "s", "<Nop>", { desc = "No-op" })
+
+vim.keymap.set("i", "jk", "<Esc>", { desc = "Escape insert mode with jk" })
+
 -- Highlight yanking
 vim.api.nvim_create_autocmd("TextYankPost", {
   desc = "Highlight when yanking (copying) text",
