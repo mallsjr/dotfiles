@@ -1,5 +1,6 @@
 return {
   "tris203/precognition.nvim",
+  lazy = false,
   --event = "VeryLazy",
   opts = {
     -- startVisible = true,
@@ -26,5 +27,8 @@ return {
     -- disabled_fts = {
     --     "startify",
     -- },
+  },
+  keys = {
+    { "<leader>pt", "<cmd>Precognition toggle<cr>", desc = "Toggle Precognition" },
   },
 }
