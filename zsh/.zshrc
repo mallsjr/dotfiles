@@ -13,6 +13,7 @@ alias la='eza -A'
 alias air='~/go/bin/air'
 alias lg='lazygit'
 alias cd='z'
+alias cdi='zi'
 alias l='love .'
 
 export NVM_DIR="$HOME/.nvm"
