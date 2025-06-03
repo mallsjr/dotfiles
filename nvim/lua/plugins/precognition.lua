@@ -1,5 +1,6 @@
 return {
   "tris203/precognition.nvim",
+  enabled = false,
   lazy = false,
   --event = "VeryLazy",
   opts = {
