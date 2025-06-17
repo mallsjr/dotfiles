@@ -16,6 +16,7 @@ return {
     -- Define formatters
     formatters_by_ft = {
       lua = { "stylua" },
+      go = { "gofmt" },
       -- Keeping other formatters commented for future use
       -- javascript = { { "prettierd", "prettier" } },
       -- typescript = { { "prettierd", "prettier" } },
